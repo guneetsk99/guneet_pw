@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://guneetsk.github.io/sitemap.xml
+Sitemap: https://guneetsk99.github.io//sitemap.xml
