@@ -13,7 +13,14 @@ nav_order: 5
 > - ###### My team and I have released a validated Odia Instruction set of 171K with 10K instructions of domain knowledge for the Orissa state
 > - ###### We have also released a Bengali Instruction Set of 252K Large Language Model Tuning
 > - ###### Recently I fine tuned LLama2 7B and 13B with Qlora to create 2 versions of Odia LLama2. The models would soon be released for public use
+> - ###### Check out our work [here](https://www.odiagenai.org/)
 > - ###### Working on couple of Papers :grin: Hope to publish them soon.
+
+##### **DriQ, Research Scientist and Consultant**
+> - ###### Creating novel AI system to manage sensor data to monitor humans diaper's state in nursing home.
+> - ###### Working in Collaboration with Dr Gregory Dean and his team to deliver potential AI product line up that they can employ at hospitals
+> - ###### Some Products include: Deployed XGBoost Model to predict wet and dry state of human along with percentage wetness; LLM powered chatbot hosted on their website for customer interaction; Unirary Tract Infection Predictor
+
 
 ##### **Google Summer of Code Fellow , CERN Switzerland Geant 4 Team, 2022**
 > - ###### Worked in a team of 3 where I was mentored by 2 CERN Physicists

@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2023-09-13 
+date: 13 September
 inline: true
 related_posts: false
 ---
 
-Panelist and United Nation General Assembly to talk on "Harnessing Grassroots AI to Fulfill the SDGs"
+Panelist at United Nation General Assembly (UNGA) Science Summit UNGA78 2023 to talk on **"Harnessing Grassroots AI to Fulfill the SDGs"**
+
