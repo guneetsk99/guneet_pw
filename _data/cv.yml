@@ -4,7 +4,7 @@
     - name: Full Name
       value: Guneet Singh Kohli
     - name: Zodiac
-      value: 50% Capricorn 50% Aquarius
+      value: Capricorn/Aquarius
     - name: Languages
       value: English, Hindi, Punjabi
 
@@ -38,23 +38,23 @@
         - Developed simulation software to generate mock problems for testing Task Scheduler made by the AI team of GreyOrange.
         - Tech Stack -> Java [Spring, Optaplanner], Python [Streamlit, Scipy, Statsmodels, Numpy, Pandas]
 
-- title: AI Associate/Consultant
+- title: Research Experience
   type: time_table
   contents:
-    - title: Lead ML Engineer
-      institution: Trulytics
+    - title: Researcher
+      institution: AI-NLP-ML Group, IIT Patna
+      year: 2022-2023
+      description:
+        - Working on Scientific Document Processing under the guidance of Dr. Tirthankar and Dr. Asif Ekbal.
+        - 1 Publication at LREC-COLING 2024, 1 Publication at ICADL
+    - title: Visiting Researcher
+      institution: Alan Turing Institute and Leeds University
       year: 2021
       description:
-        - Introduction of ML tools into the company's environment by directly working with Eli Gassert, the CTO of the company
-        - Created benchmarking framework for the organization to perform one-click data analysis and offline model training
-    - title: ML Engineer
-      institution: Freelance project for Netherlands based Crypto investors
-      year: 2021
-      description:
-        - Analyzed recent ongoing ICOs of cryptos to determine success and forecast the expected market cap based on market sentiments, customer social interactions, and attributes that determine the structure of a crypto finance market using advanced predictive analysis and ML algorithms.
-
-
-
+        - Using ML Models and techniques, we derived statistical relations between weather conditions and their effects on ASDA Stores
+          LTD, UK.
+        - This project was completed as a part of the Data Study Group.
+        - Detailed publication of the project can be found [here](https://www.turing.ac.uk/sites/default/files/2022-04/the_alan_turing_institute_data_study_group_final_report_-_asda.pdf)
 
 - title: Open Source Projects
   type: time_table
@@ -65,12 +65,24 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2022
-      items: 
+    - items:
+        - Served as Program Chairs
+          - First BLP Workshop, EMNLP 2023
+          - CASE Workshop, EACL 2024
+          - FigLang, NAACL 2024
+    - year: 2023
+      items:
+        - "LLM Fine-Tuning for Low Resource Language: A Case Study on Odia" accepted as a poster to the scientific program of AI
+            Day., Finnish Center for Artificial Intelligence
+        - Secured funding for developing a prototype that detects grooming conversations and alerts users, enhancing
+          online safety for children.Sanctioned by GitHub and Save the Children
+
+    - year: 2018-2022
+      items:
+        - Merit Scholarship Holder, Thapar University
+        - Was awarded 15000$ worth of scholarships based on consistent academic performance throughout my undergraduate.
         - Awarded EMNLP D&I Grant of $750 to present two workshop papers at Abu Dhabi for EMNLP, 2022
         - Spot Reward worth 350$ received from GreyOrange for Professional performance.
-    - year: 2020
-      items:
         - Finalist in HackMIT 2020, MIT(Boston,USA)
         - Women Security Android app+hardware support (DIFESA) project's patent got approved by Patent Authority of India (Application No. 202011015064) Filed on 6/04/2020
 
