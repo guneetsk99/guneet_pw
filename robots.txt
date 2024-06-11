@@ -1,4 +1,8 @@
+---
+permalink: /robots.txt
+---
 User-agent: *
 Disallow:
 
 Sitemap: https://guneetsk99.github.io//sitemap.xml
+
