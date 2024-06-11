@@ -12,8 +12,9 @@ profile:
     <p>AI Scientist: GreyOrange </p> 
     <p>GSoC’22: CERN </p>   
     <p>Ex-Visiting Researcher: Alan Turing Institute </p>
-    <p>Technical Mentor: Save The Children US </p>
+    <p>Building Sanskriti Bench </p>
     <p>Technical Mentor: Omdena </p>
+    <p>Independent Researcher </p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
