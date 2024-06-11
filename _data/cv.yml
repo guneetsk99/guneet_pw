@@ -65,7 +65,8 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - items:
+    - year: 2024-2023
+      items:
         - Served as Program Chairs
           - First BLP Workshop, EMNLP 2023
           - CASE Workshop, EACL 2024
