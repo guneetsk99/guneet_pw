@@ -31,6 +31,7 @@ with whom I could work with. This is one the of reason why I got a chance to wor
 - Social Engineering capabilities of LLM. 
 - I aim to develop a framework called **Synthetix Minds**, which emphasizes the synthetic integration of multiple intelligent agents to create a unified cognitive system.
   - The Synthetix mind will be a collective group of agents debating on a given factual response. Through communication and implicit feedback, these models aim to decrease uncertainty. Datasets related to figurative Languages and Common sense reasoning would be used to benchmark the Synthetix  Mind's decision-making capabilities. Hence, it opens avenues for future exploration across various permutations and combinations. 
+
 Rest if I am not working I am collecting books, hitting gym, playing badminton or cafe hopping. When I am stressed and mentally exhausted you can find me cooking.
 After my retirement I will definitely like to open up my Restro where I experiment with food just like currently I am experimenting with AI. **I am open to suggestions about your favourite dishes**
 
