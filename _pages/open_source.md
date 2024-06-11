@@ -8,11 +8,11 @@ nav_order: 5
 ---
 
 
-##### **Odia Gen AI, Lead Scientist**
-> - ###### Focussing on creating Large Language Models for Native Indian Languages.
-> - ###### My team and I have released a validated Odia Instruction set of 171K with 10K instructions of domain knowledge for the Orissa state
-> - ###### We have also released a Bengali Instruction Set of 252K Large Language Model Tuning
-> - ###### Recently I fine tuned LLama2 7B and 13B with Qlora to create 2 versions of Odia LLama2. The models would soon be released for public use
+##### **Odia Gen AI, Research Collaborator**
+> - ###### Working on building the Large Language Models (LLMs) and AI agents for Indian Languages
+> - ###### I lead a team that has open-sourced more than 1M Instructions of more than 5 Indian Languages
+> - ###### I have also released SFT, PEFT (Lora/Qlora) models for Bengali, Hindi, Odia, and Punjabi.
+> - ###### Currently working on the creation of better Indian language embedding models and tokenizers
 > - ###### Check out our work [here](https://www.odiagenai.org/)
 > - ###### Working on couple of Papers :grin: Hope to publish them soon.
 
@@ -57,5 +57,6 @@ nav_order: 5
 
 ##### **Save the Children (USA), AI for Social Good [Fight against Online Child Grooming]**
 > - ###### Currently leading the technical department of an Online Anti Child Grooming system through which young children can be saved from groomers and predators on platforms like Youtube, Instagram, Twitter, Steam, Discord, etc.
-> - ###### Working in collaboration with Github, Save the Children Sweden
+> - ###### Working in collaboration with Github, Save the Children Sweden.
+> - ###### Recently got a funding!!!
 

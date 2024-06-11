@@ -34,65 +34,50 @@
   publisher={Elsevier}
 }
 
-@inproceedings{dogra-etal-2022-raccoons,
-    title = "Raccoons at {S}em{E}val-2022 Task 11: Leveraging Concatenated Word Embeddings for Named Entity Recognition",
-    author = "Dogra, Atharvan  and
-      Kaur, Prabsimran  and
-      Kohli, Guneet  and
-      Bedi, Jatin",
-    booktitle = "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
-    month = jul,
-    year = "2022",
-    address = "Seattle, United States",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.semeval-1.217",
-    doi = "10.18653/v1/2022.semeval-1.217",
-    pages = "1576--1582",
-    abstract = "Named Entity Recognition (NER), an essential subtask in NLP that identifies text belonging to predefined semantics such as a person, location, organization, drug, time, clinical procedure, biological protein, etc. NER plays a vital role in various fields such as informationextraction, question answering, and machine translation. This paper describes our participating system run to the Named entity recognitionand classification shared task SemEval-2022. The task is motivated towards detecting semantically ambiguous and complex entities in shortand low-context settings. Our team focused on improving entity recognition by improving the word embeddings. We concatenated the word representations from State-of-the-art language models and passed them to find the best representation through a reinforcement trainer. Our results highlight the improvements achieved by various embedding concatenations.",
+@inproceedings{dogra2022raccoons,
+  title={Raccoons at SemEval-2022 Task 11: Leveraging Concatenated Word Embeddings for Named Entity Recognition},
+  author={Dogra, Atharvan and Kaur, Prabsimran and Kohli, Guneet and Bedi, Jatin},
+  booktitle={Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)},
+  pages={1576--1582},
+  year={2022}
 }
 
-@article{chinagundi2021classification,
-  title={Classification of Hate, Offensive and Profane content from Tweets using an Ensemble of Deep Contextualized and Domain Specific Representations},
+@inproceedings{chinagundi2021classification,
+  title={Classification of Hate Offensive and Profane content from Tweets using an Ensemble of Deep Contextualized and Domain Specific Representations.},
+  author={Chinagundi, Basavraj and Singh, Muskaan and Ghosal, Tirthankar and Rana, Prashant Singh and Kohli, Guneet Singh},
+  booktitle={FIRE (Working Notes)},
+  pages={491--500},
+  year={2021}
+}
+
+@inproceedings{kohli2021automatic,
+  title={Automatic Detection of Rhetorical Role Labels using ERNIE2. 0 and RoBERTa.},
+  author={Kohli, Guneet Singh and Kaur, Prabsimran and Bedi, Jatin},
+  booktitle={FIRE (Working Notes)},
+  pages={581--588},
+  year={2021}
+}
+
+@article{chinagundi2021tiet,
+  title={TIET-CUNI@ HASOC in FIRE 2021 (English Subtask A and B): Classification of Hate, Offensive and Profane content from Tweets using an Ensemble of Deep Contextualized and Domain Specific Representations},
   author={Chinagundi, Basavraj and Singh, Muskaan and Ghosal, Tirthankar and Rana, Prashant Singh and Kohli, Guneet Singh},
   year={2021}
 }
 
-@misc{kohli2021automatic,
-  title={Automatic detection of rhetorical role labels using ernie2. 0 and roberta},
-  author={Kohli, Guneet Singh and Kaur, Prabsimran and Bedi, Jatin},
-  year={2021},
-  publisher={FIRE}
+@inproceedings{kaur2022arguably,
+  title={Arguably@ smm4h’22: Classification of health related tweets using ensemble, zero-shot and fine-tuned language model},
+  author={Kaur, Prabsimran and Kohli, Guneet and Bedi, Jatin},
+  booktitle={Proceedings of The Seventh Workshop on Social Media Mining for Health Applications, Workshop \& Shared Task},
+  pages={138--142},
+  year={2022}
 }
 
-@inproceedings{kaur-etal-2022-arguably,
-    title = "{ARGUABLY}@{SMM}4{H}{'}22: Classification of Health Related Tweets using Ensemble, Zero-Shot and Fine-Tuned Language Model",
-    author = "Kaur, Prabsimran  and
-      Kohli, Guneet  and
-      Bedi, Jatin",
-    booktitle = "Proceedings of The Seventh Workshop on Social Media Mining for Health Applications, Workshop {\&} Shared Task",
-    month = oct,
-    year = "2022",
-    address = "Gyeongju, Republic of Korea",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.smm4h-1.38",
-    pages = "138--142",
-    abstract = "With the increase in the use of social media, people have become more outspoken and are using platforms like Reddit, Facebook, and Twitter to express their views and share the medical challenges they are facing. This data is a valuable source of medical insight and is often used for healthcare research. This paper describes our participation in Task 1a, 2a, 2b, 3, 5, 6, 7, and 9 organized by SMM4H 2022. We have proposed two transformer-based approaches to handle the classification tasks. The first approach is fine-tuning single language models. The second approach is ensembling the results of BERT, RoBERTa, and ERNIE 2.0.",
-}
-
-@inproceedings{kumar-etal-2022-team,
-    title = "Team {AINLPML} @ {M}u{P} in {SDP} 2021: Scientific Document Summarization by End-to-End Extractive and Abstractive Approach",
-    author = "Kumar, Sandeep  and
-      Kohli, Guneet Singh  and
-      Shinde, Kartik  and
-      Ekbal, Asif",
-    booktitle = "Proceedings of the Third Workshop on Scholarly Document Processing",
-    month = oct,
-    year = "2022",
-    address = "Gyeongju, Republic of Korea",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.sdp-1.36",
-    pages = "285--290",
-    abstract = "This paper introduces the proposed summarization system of the AINLPML team for the First Shared Task on Multi-Perspective Scientific Document Summarization at SDP 2022. We present a method to produce abstractive summaries of scientific documents. First, we perform an extractive summarization step to identify the essential part of the paper. The extraction step includes utilizing a contributing sentence identification model to determine the contributing sentences in selected sections and portions of the text. In the next step, the extracted relevant information is used to condition the transformer language model to generate an abstractive summary. In particular, we fine-tuned the pre-trained BART model on the extracted summary from the previous step. Our proposed model successfully outperformed the baseline provided by the organizers by a significant margin. Our approach achieves the best average Rouge F1 Score, Rouge-2 F1 Score, and Rouge-L F1 Score among all submissions.",
+@inproceedings{kumar2022team,
+  title={Team AINLPML@ MuP in SDP 2021: scientific document summarization by end-to-end extractive and abstractive approach},
+  author={Kumar, Sandeep and Kohli, Guneet Singh and Shinde, Kartik and Ekbal, Asif},
+  booktitle={Proceedings of the Third Workshop on Scholarly Document Processing},
+  pages={285--290},
+  year={2022}
 }
 
 @inproceedings{kohli2022adversarial,
@@ -103,57 +88,58 @@
   year={2022}
 }
 
-@inproceedings{parida-etal-2023-havqa,
-    title = "{H}a{VQA}: A Dataset for Visual Question Answering and Multimodal Research in {H}ausa Language",
-    author = "Parida, Shantipriya  and
-      Abdulmumin, Idris  and
-      Muhammad, Shamsuddeen Hassan  and
-      Bose, Aneesh  and
-      Kohli, Guneet Singh  and
-      Ahmad, Ibrahim Said  and
-      Kotwal, Ketan  and
-      Deb Sarkar, Sayan  and
-      Bojar, Ond{\v{r}}ej  and
-      Kakudi, Habeebah",
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
-    month = jul,
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.findings-acl.646",
-    doi = "10.18653/v1/2023.findings-acl.646",
-    pages = "10162--10183",
-    abstract = "This paper presents {``}HaVQA{''}, the first multimodal dataset for visual question answering (VQA) tasks in the Hausa language. The dataset was created by manually translating 6,022 English question-answer pairs, which are associated with 1,555 unique images from the Visual Genome dataset. As a result, the dataset provides 12,044 gold standard English-Hausa parallel sentences that were translated in a fashion that guarantees their semantic match with the corresponding visual information. We conducted several baseline experiments on the dataset, including visual question answering, visual question elicitation, text-only and multimodal machine translation.",
+@article{parida2023havqa,
+  title={HaVQA: A Dataset for Visual Question Answering and Multimodal Research in Hausa Language},
+  author={Parida, Shantipriya and Abdulmumin, Idris and Muhammad, Shamsuddeen Hassan and Bose, Aneesh and Kohli, Guneet Singh and Ahmad, Ibrahim Said and Kotwal, Ketan and Sarkar, Sayan Deb and Bojar, Ond{\v{r}}ej and Kakudi, Habeebah Adamu},
+  journal={arXiv preprint arXiv:2305.17690},
+  year={2023}
 }
 
-
-@inproceedings{kohli-etal-2022-arguably,
-    title = "{ARGUABLY} @ Causal News Corpus 2022: Contextually Augmented Language Models for Event Causality Identification",
-    author = "Kohli, Guneet  and
-      Kaur, Prabsimran  and
-      Bedi, Jatin",
-    booktitle = "Proceedings of the 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE)",
-    month = dec,
-    year = "2022",
-    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.case-1.20",
-    doi = "10.18653/v1/2022.case-1.20",
-    pages = "143--148",
-    abstract = "Causal (a cause-effect relationship between two arguments) has become integral to various NLP domains such as question answering, summarization, and event prediction. To understand causality in detail, Event Causality Identification with Causal News Corpus (CASE-2022) has organized shared tasks. This paper defines our participation in Subtask 1, which focuses on classifying event causality. We used sentence-level augmentation based on contextualized word embeddings of distillBERT to construct new data. This data was then trained using two approaches. The first technique used the DeBERTa language model, and the second used the RoBERTa language model in combination with cross-attention. We obtained the second-best F1 score (0.8610) in the competition with the Contextually Augmented DeBERTa model.",
+@inproceedings{kohli2023arguably,
+  title={Arguably at SemEval-2023 Task 11: Learning the disagreements using unsupervised behavioral clustering and language models},
+  author={Kohli, Guneet Singh and Tiwari, Vinayak},
+  booktitle={Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)},
+  pages={2137--2142},
+  year={2023}
 }
 
-@inproceedings{kohli-tiwari-2023-arguably,
-    title = "Arguably at {S}em{E}val-2023 Task 11: Learning the disagreements using unsupervised behavioral clustering and language models",
-    author = "Kohli, Guneet Singh  and
-      Tiwari, Vinayak",
-    booktitle = "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
-    month = jul,
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.semeval-1.295",
-    doi = "10.18653/v1/2023.semeval-1.295",
-    pages = "2137--2142",
-    abstract = "We describe SemEval-2023 Task 11 on behavioral segregation of annotations to find the similarities and contextual thinking of a group of annotators. We have utilized a behavioral segmentation analysis on the annotators to model them independently and combine the results to yield soft and hard scores. Our team focused on experimenting with hierarchical clustering with various distance metrics for similarity, dissimilarity, and reliability. We modeled the clusters and assigned weightage to find the soft and hard scores. Our team was able to find out hidden behavioral patterns among the judgments of annotators after rigorous experiments. The proposed system is made available.",
+@inproceedings{shahid2023odiagenai,
+  title={OdiaGenAI’s Participation at WAT2023},
+  author={Shahid, Sk and Kohli, Guneet Singh and Sekhar, Sambit and Dhal, Debasish and Sharma, Adit and Kushwaha, Shubhendra and Parida, Shantipriya and Gr{\"o}nroos, Stig-Arne and Dash, Satya Ranjan},
+  booktitle={Proceedings of the 10th Workshop on Asian Translation},
+  pages={46--52},
+  year={2023}
+}
+
+@inproceedings{kumar2023mup,
+  title={MuP-SciDocSum: Leveraging Multi-perspective Peer Review Summaries for Scientific Document Summarization},
+  author={Kumar, Sandeep and Kohli, Guneet Singh and Ghosal, Tirthankar and Ekbal, Asif},
+  booktitle={International Conference on Asian Digital Libraries},
+  pages={250--267},
+  year={2023},
+  organization={Springer Nature Singapore Singapore}
+}
+
+@inproceedings{kohli2023building,
+  title={Building a llama2-finetuned llm for odia language utilizing domain knowledge instruction set},
+  author={Kohli, Guneet S and Parida, Shantipriya and Sekhar, Sambit and Saha, Samirit and Nair, Nipun B and Agarwal, Parul and Khosla, Sonal and Patiyal, Kusumlata and Dhal, Debasish},
+  booktitle={Proceedings of the Third International Conference on AI-ML Systems},
+  pages={1--7},
+  year={2023}
+}
+
+@inproceedings{thapa2024stance,
+  title={Stance and hate event detection in tweets related to climate activism-shared task at case 2024},
+  author={Thapa, Surendrabikram and Rauniyar, Kritesh and Jafri, Farhan and Shiwakoti, Shuvam and Veeramani, Hariram and Jain, Raghav and Kohli, Guneet Singh and H{\"u}rriyeto{\u{g}}lu, Ali and Naseem, Usman},
+  booktitle={Proceedings of the 7th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2024)},
+  pages={234--247},
+  year={2024}
+}
+
+@inproceedings{kumar2024longform,
+  title={Longform Multimodal Lay Summarization of Scientific Papers: Towards Automatically Generating Science Blogs from Research Articles},
+  author={Kumar, Sandeep and Kohli, Guneet Singh and Ghosal, Tirthankar and Ekbal, Asif},
+  booktitle={Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
+  pages={10790--10801},
+  year={2024}
 }
